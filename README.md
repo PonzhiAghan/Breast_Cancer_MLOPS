@@ -2,7 +2,7 @@
 # Packaging the ML Model of Breast Cancer Classification
 
 #### Problem Statement
-- I want to develop a machine learning model to classify whether a given tumor is benign or malignant based on features extracted from breast cancer cell images.
+- Develop a machine learning model to classify whether a given tumor is benign or malignant based on features extracted from breast cancer cell images.
 - It is a classification problem where we have to predict whether a tumor is benign or malignant.
 
 #### Data
@@ -132,7 +132,7 @@ BreastCancerModel
 
 # Build the Package
 
-1. Go  to the Project directory and install dependencies
+1. Go to the Project directory and install dependencies
 `pip install -r requirements.txt`
 
 2. Create Pickle file after training:
