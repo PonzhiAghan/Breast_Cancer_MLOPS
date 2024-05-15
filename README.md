@@ -132,7 +132,7 @@ BreastCancerModel
 
 # Build the Package
 
-1. Go to Project directory and install dependencies
+1. Go  to the Project directory and install dependencies
 `pip install -r requirements.txt`
 
 2. Create Pickle file after training:
