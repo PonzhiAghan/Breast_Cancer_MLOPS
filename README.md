@@ -2,8 +2,8 @@
 # Packaging the ML Model of Breast Cancer Classification
 
 #### Problem Statement
-- Company wants to automate the loan eligibility process based on customer detail provided while filling online application form. 
-- It is a classification problem where we have to predict whether a loan would be approved or not. 
+- I want to develop a machine learning model to classify whether a given tumor is benign or malignant based on features extracted from breast cancer cell images.
+- It is a classification problem where we have to predict whether a tumor is benign or malignant.
 
 #### Data
 The data corresponds to a set of financial requests associated with individuals. 
@@ -96,7 +96,7 @@ deactivate
 
 ## Directory structure
 
-```bash
+```
 BreastCancerModel
 
 
@@ -132,7 +132,7 @@ BreastCancerModel
 
 # Build the Package
 
-1. Goto Project directory and install dependencies
+1. Go to Project directory and install dependencies
 `pip install -r requirements.txt`
 
 2. Create Pickle file after training:
@@ -175,5 +175,3 @@ pip install git+https://github.com/PonzhiAghan/Breast_Cancer_MLOPS.git
 `pip install git+https://github.com/PonzhiAghan/Breast_Cancer_MLOPS.git`
 6. Now try importing the prediction_model, you should be able to do it successfully
 7. Extras : Run training pipeline using the package, and also conduct the test
-
-
